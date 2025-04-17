@@ -12,6 +12,8 @@ import { Toaster,toast } from "react-hot-toast";
 import { useAuth } from "../context/AuthContext";
 
 
+
+
 const baseUrl = import.meta.env.VITE_API_URL;
 
 const SignIn = ({ switchToSignUp }) => {
