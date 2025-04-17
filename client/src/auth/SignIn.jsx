@@ -31,7 +31,7 @@ const SignIn = ({ switchToSignUp }) => {
   })
   const onSubmit = async(data) => {
     try {
-      const req = await fetch(`http://localhost:4040/api/auth/sign-in`,{
+      const req = await fetch(`${baseUrl}/api/auth/sign-in`,{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
