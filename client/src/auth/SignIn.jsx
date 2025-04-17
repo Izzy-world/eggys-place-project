@@ -25,7 +25,6 @@ const SignIn = ({ switchToSignUp }) => {
     register,
     handleSubmit,
     formState: { errors,isSubmitting },
-    reset
   } = useForm({
     resolver: yupResolver(signInSchema),
   })
