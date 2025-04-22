@@ -17,6 +17,7 @@ router.post("/forgot-password",forgotPassword);
 
 // reset password route
 router.put("/reset-password/:resetToken", resetPassword);
+
 // isLoggedIn
 router.get("/isloggedin", isLoggedIn)
 
